@@ -13,8 +13,21 @@ namespace SampleMVCApp.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            ViewData["Message"] = "Hello!This is sample message!!!";
+            ViewData["Message"] = "Input your data:";
+            ViewData["name"] = "";
+            ViewData["mail"] = "";
+            ViewData["tel"] = "";
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Form()
+        {
+            ViewData["name"] = Request.Form["name"];
+            ViewData["mail"] = Request.Form["mail"];
+            ViewData["tel"] = Request.Form["tel"];
+            ViewData["Message"] = Request.Form["name"]+ ","+Request.Form["mail"]+ "," + Request.Form["tel"];
+            return View("Index");
         }
     }
 }
