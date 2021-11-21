@@ -28,13 +28,18 @@ namespace SampleEmptyApp
 
             app.UseRouting();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-            });
+            app.UseWelcomePage();
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapGet("/", async context =>
+            //    {
+            //        context.Response.ContentType = "text/html";
+            //        await context.Response.WriteAsync("<html><title>Hello</title>");
+            //        await context.Response.WriteAsync("<dody><h1>Hello!</h1>");
+            //        await context.Response.WriteAsync("<p>This is sample page.</p>");
+            //        await context.Response.WriteAsync("</body></html>");
+            //    });
+            //});
         }
     }
 }

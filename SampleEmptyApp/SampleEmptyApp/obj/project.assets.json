@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tanakakizuki/Desktop/SampleEmptyApp/SampleEmptyApp/SampleEmptyApp.csproj",
+      "projectUniqueName": "/Users/tanakakizuki/Desktop/ASP.net_learn/SampleEmptyApp/SampleEmptyApp/SampleEmptyApp.csproj",
       "projectName": "SampleEmptyApp",
-      "projectPath": "/Users/tanakakizuki/Desktop/SampleEmptyApp/SampleEmptyApp/SampleEmptyApp.csproj",
+      "projectPath": "/Users/tanakakizuki/Desktop/ASP.net_learn/SampleEmptyApp/SampleEmptyApp/SampleEmptyApp.csproj",
       "packagesPath": "/Users/tanakakizuki/.nuget/packages/",
-      "outputPath": "/Users/tanakakizuki/Desktop/SampleEmptyApp/SampleEmptyApp/obj/",
+      "outputPath": "/Users/tanakakizuki/Desktop/ASP.net_learn/SampleEmptyApp/SampleEmptyApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tanakakizuki/.config/NuGet/NuGet.Config"
