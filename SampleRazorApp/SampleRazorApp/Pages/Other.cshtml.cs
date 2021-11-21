@@ -9,8 +9,10 @@ namespace SampleRazorApp.Pages
 {
     public class OtherModel : PageModel
     {
-        public void OnGet()
+        public string Message { get; set; }
+        public void OnPost()
         {
+            Message = "you typed:" + Request.Form["msg"];
         }
     }
 }

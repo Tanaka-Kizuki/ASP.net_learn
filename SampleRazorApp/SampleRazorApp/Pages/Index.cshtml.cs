@@ -5,38 +5,34 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using System.ComponentModel.DataAnnotations;
 
 namespace SampleRazorApp.Pages
 {
     public class IndexModel : PageModel
     {
+        public string Message = "no messege";
 
-        public string Message { get; set; } = "This is sample message";
-        private string[][] data = new string[][] {
-            new string[]{"taro","taro@yamada"},
-            new string[]{"hanako","hanako@flower"},
-            new string[]{"sachiko","sachiko@happy"}
-        };
+        [DataType(DataType.Text)]
+        public string Name { get; set; }
 
-        [BindProperty(SupportsGet = true)]
-        public int id { get; set; }
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
 
-        private readonly ILogger<IndexModel> _logger;
+        [DataType(DataType.EmailAddress)]
+        public string Mail { get; set; }
 
-        public IndexModel(ILogger<IndexModel> logger)
-        {
-            _logger = logger;
-        }
+        [DataType(DataType.PhoneNumber)]
+        public string Tel { get; set; }
 
         public void OnGet()
         {
-            Message = "This is the added Message";
+            Message = "Please Write";
         }
 
-        public string getData(int id)
+        public void OnPost(string Name,string Password,string Mail,string Tel)
         {
-            string[] target = data[id];
-            return "[名前：" + target[0] + "メール" + target[1] + "]";
+            Message = "name:" + Name + "Password" + Password + "Mail" + Mail + "Tel" + Tel;
         }
     }
 }
