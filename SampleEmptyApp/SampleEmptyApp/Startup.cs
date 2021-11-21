@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.IO;
 
 namespace SampleEmptyApp
 {
@@ -28,18 +29,24 @@ namespace SampleEmptyApp
 
             app.UseRouting();
 
-            app.UseWelcomePage();
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapGet("/", async context =>
-            //    {
-            //        context.Response.ContentType = "text/html";
-            //        await context.Response.WriteAsync("<html><title>Hello</title>");
-            //        await context.Response.WriteAsync("<dody><h1>Hello!</h1>");
-            //        await context.Response.WriteAsync("<p>This is sample page.</p>");
-            //        await context.Response.WriteAsync("</body></html>");
-            //    });
-            //});
+            //app.UseWelcomePage();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapGet("/", async context =>
+                {
+                    context.Response.ContentType = "text/plain";
+                    using (FileStream stream = File.Open(@"./startup.cs", FileMode.Open))
+                    {
+                        int num = (int)stream.Length;
+                        byte[] bytes = new byte[num];
+                        stream.Read(bytes, 0, num);
+                        string result = System.Text.Encoding.UTF8.GetString(bytes);
+                        await context.Response.WriteAsync(result);
+                    }
+                    
+                });
+            });
         }
     }
 }
