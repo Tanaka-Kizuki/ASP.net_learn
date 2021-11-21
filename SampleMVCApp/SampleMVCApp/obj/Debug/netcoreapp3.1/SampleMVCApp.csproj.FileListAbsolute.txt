@@ -7,7 +7,6 @@
 /Users/tanakakizuki/Desktop/ASP.net_learn/SampleMVCApp/SampleMVCApp/bin/Debug/netcoreapp3.1/SampleMVCApp.pdb
 /Users/tanakakizuki/Desktop/ASP.net_learn/SampleMVCApp/SampleMVCApp/bin/Debug/netcoreapp3.1/SampleMVCApp.Views.dll
 /Users/tanakakizuki/Desktop/ASP.net_learn/SampleMVCApp/SampleMVCApp/bin/Debug/netcoreapp3.1/SampleMVCApp.Views.pdb
-/Users/tanakakizuki/Desktop/ASP.net_learn/SampleMVCApp/SampleMVCApp/obj/Debug/netcoreapp3.1/SampleMVCApp.csproj.AssemblyReference.cache
 /Users/tanakakizuki/Desktop/ASP.net_learn/SampleMVCApp/SampleMVCApp/obj/Debug/netcoreapp3.1/SampleMVCApp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/tanakakizuki/Desktop/ASP.net_learn/SampleMVCApp/SampleMVCApp/obj/Debug/netcoreapp3.1/SampleMVCApp.AssemblyInfoInputs.cache
 /Users/tanakakizuki/Desktop/ASP.net_learn/SampleMVCApp/SampleMVCApp/obj/Debug/netcoreapp3.1/SampleMVCApp.AssemblyInfo.cs
