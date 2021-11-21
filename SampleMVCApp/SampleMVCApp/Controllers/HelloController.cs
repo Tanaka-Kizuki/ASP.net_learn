@@ -11,22 +11,30 @@ namespace SampleMVCApp.Controllers
     public class HelloController : Controller
     {
         // GET: /<controller>/
+        public List<string> list;
+
+        public HelloController()
+        {
+            list = new List<string>();
+            list.Add("Japan");
+            list.Add("USA");
+            list.Add("UK");
+
+        }
         public IActionResult Index()
         {
-            ViewData["Message"] = "Input your data:";
-            ViewData["name"] = "";
-            ViewData["mail"] = "";
-            ViewData["tel"] = "";
+            ViewData["message"] = "Select item";
+            ViewData["list"] = "";
+            ViewData["listdata"] = list;
             return View();
         }
 
         [HttpPost]
         public IActionResult Form()
         {
-            ViewData["name"] = Request.Form["name"];
-            ViewData["mail"] = Request.Form["mail"];
-            ViewData["tel"] = Request.Form["tel"];
-            ViewData["Message"] = Request.Form["name"]+ ","+Request.Form["mail"]+ "," + Request.Form["tel"];
+            ViewData["message"] = "" + Request.Form["list"] + '"' + "selected";
+            ViewData["list"] = Request.Form["list"];
+            ViewData["listdata"] = list;
             return View("Index");
         }
     }
