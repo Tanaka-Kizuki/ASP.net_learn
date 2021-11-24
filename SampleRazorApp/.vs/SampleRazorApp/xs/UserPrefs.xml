@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="SampleRazorApp/Pages/Index.cshtml">
     <Files>
       <File FileName="SampleRazorApp/Pages/Index.cshtml" Line="3" Column="3" />
-      <File FileName="SampleRazorApp/Pages/Index.cshtml.cs" Line="29" Column="37" />
-      <File FileName="SampleRazorApp/Pages/Other.cshtml" Line="11" Column="1" />
-      <File FileName="SampleRazorApp/Pages/Other.cshtml.cs" Line="19" Column="1" />
+      <File FileName="SampleRazorApp/Pages/Index.cshtml.cs" />
+      <File FileName="SampleRazorApp/Pages/Other.cshtml" />
+      <File FileName="SampleRazorApp/Pages/Other.cshtml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
