@@ -1,4 +1,33 @@
 ﻿<Properties StartupConfiguration="{56151F45-D01B-40E6-929E-DF5F92D1039F}|Default">
-  <MonoDevelop.Ide.ItemProperties.MvcMovie FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.MvcMovie PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvcMovie/Views/HelloWorld/Welcome.cshtml">
+    <Files>
+      <File FileName="MvcMovie/Controllers/HelloWorldController.cs" Line="24" Column="10" />
+      <File FileName="MvcMovie/Views/HelloWorld/Index.cshtml" Line="5" Column="33" />
+      <File FileName="MvcMovie/Views/HelloWorld/Welcome.cshtml" Line="4" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MvcMovie" expanded="True">
+            <Node name="MvcMovie" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="HelloWorld" expanded="True">
+                  <Node name="Welcome.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
