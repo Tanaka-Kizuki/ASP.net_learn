@@ -1,0 +1,37 @@
+﻿@model IEnumerable<MvcMovie.Models.Movie>
+@{
+    ViewData["title"] = "Find";
+}
+
+<h1>Find</h1>
+
+<form asp-controller="Movies" asp-action="Find">
+    <div class="row">
+        <input type="text" name="find" class="col-10" form-control />
+        <input type="submit" value="Find" class="btn btn-primary" />
+    </div>
+</form>
+
+<table class="table mt-5">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>ReleaseDate</th>
+            <th>Genre</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tdosy>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@Html.DisplayFor(modelItem => item.Id)</th>
+                <th>@Html.DisplayFor(modelItem => item.Title)</th>
+                <th>@Html.DisplayFor(modelItem => item.Genre)</th>
+                <th>@Html.DisplayFor(modelItem => item.ReleaseDate)</th>
+                <th>@Html.DisplayFor(modelItem => item.Price)</th>
+            </tr>
+                }
+        </tdosy>
+</table>

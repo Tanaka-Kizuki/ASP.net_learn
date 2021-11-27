@@ -1,20 +1,20 @@
 ﻿<Properties StartupConfiguration="{B0391502-CCFC-4DF4-A651-48BD5176BD52}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SampleRazorApp/Pages/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleRazorApp/Startup.cs">
     <Files>
-      <File FileName="SampleRazorApp/Pages/Index.cshtml" Line="3" Column="3" />
+      <File FileName="SampleRazorApp/Pages/Index.cshtml" Line="4" Column="37" />
       <File FileName="SampleRazorApp/Pages/Index.cshtml.cs" />
-      <File FileName="SampleRazorApp/Pages/Other.cshtml" />
-      <File FileName="SampleRazorApp/Pages/Other.cshtml.cs" />
+      <File FileName="SampleRazorApp/Data/SampleRazorAppContext.cs" Line="10" Column="77" />
+      <File FileName="SampleRazorApp/Models/Person.cs" />
+      <File FileName="SampleRazorApp/Startup.cs" Line="18" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SampleRazorApp" expanded="True">
-            <Node name="SampleRazorApp" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="Index.cshtml" expanded="True" selected="True" />
-                <Node name="Other.cshtml" expanded="True" />
-              </Node>
+            <Node name="SampleRazorApp" expanded="True" selected="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True" />
             </Node>
           </Node>
         </State>

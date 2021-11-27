@@ -1,22 +1,26 @@
 ﻿<Properties StartupConfiguration="{56151F45-D01B-40E6-929E-DF5F92D1039F}|Default">
   <MonoDevelop.Ide.ItemProperties.MvcMovie PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MvcMovie/Controllers/MoviesController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvcMovie/Views/Movies/Index.cshtml">
     <Files>
-      <File FileName="MvcMovie/Controllers/MoviesController.cs" Line="29" Column="23" />
+      <File FileName="MvcMovie/Controllers/MoviesController.cs" Line="16" Column="48" />
+      <File FileName="MvcMovie/Models/Movie.cs" Line="15" Column="23" />
+      <File FileName="MvcMovie/Views/Movies/Index.cshtml" Line="15" Column="43" />
+      <File FileName="MvcMovie/Views/Movies/Find.cshtml" Line="26" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MvcMovie" expanded="True">
             <Node name="MvcMovie" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="MoviesController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="HelloWorld" expanded="True" />
-                <Node name="Movies" expanded="True" />
+                <Node name="Movies" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

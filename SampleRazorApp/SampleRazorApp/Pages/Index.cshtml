@@ -1,59 +1,12 @@
-﻿@page
+﻿@page "{id?}"
 @model IndexModel
 @{
+    ViewData["title"] = "Home Page";
 }
 
 
-<div class="text-center">
-    <h1 class="dispay-4 mb-4">Welcome</h1>
-
-    @functions{
-        string hello(string name)
-        {
-            return "Hello," + name + "!";
-        }
-
-        int total(int n)
-        {
-            int re = 0;
-            for (int i = 1; i <= n; i++)
-            {
-                re += i;
-            }
-            return re;
-        }
-    }
+<div class="container">
     <div>
-        <h1 class="display-4 mb-4">Welcome</h1>
-        <p class="h4">@hello("taro")</p>
-        <p class="h4">@Model.Num の合計は、@total(Model.Num)</p>
+        <h1 class="display-4">@Model.Message</h1>
     </div>
-
-    @*<ul>
-        @{
-            int totalp = 0;
-            int totaln = 0;
-        }
-        @for(int i = 2;i<=20; i++)
-        {
-            bool flg = true;
-            @for (int j = 2; j <=i/2; j++) {
-                @if(i%j==0)
-                {
-                    flg = false;
-                }
-            }
-            @if (flg) {
-                totalp += i;
-                <li>@i は素数です </li>
-            }
-            else {
-                totaln += i;
-                <li>@i　は素数ではない</li>
-            }
-
-             
-         }
-    </ul>
-    <p class="h4">@Model.Num は、<b>@(Model.Num % 2 == 0? "偶数":"奇数")</b>です。</p>*@
 </div>

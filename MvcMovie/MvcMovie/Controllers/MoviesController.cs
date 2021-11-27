@@ -149,5 +149,18 @@ namespace MvcMovie.Controllers
         {
             return _context.Movie.Any(e => e.Id == id);
         }
+
+        public async Task<IActionResult> Find()
+        {
+            return View(await _context.Movie.ToListAsync());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Find(string find)
+        {
+            var Movies = await _context.Movie.Where(m => m.Title == find).ToListAsync();
+            return View(Movies);
+        }
     }
 }

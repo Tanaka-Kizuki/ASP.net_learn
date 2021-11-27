@@ -154,3 +154,5 @@
 /Users/tanakakizuki/Desktop/ASP.net_learn/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/MvcMovie.dll
 /Users/tanakakizuki/Desktop/ASP.net_learn/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/MvcMovie.pdb
 /Users/tanakakizuki/Desktop/ASP.net_learn/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/MvcMovie.genruntimeconfig.cache
+/Users/tanakakizuki/Desktop/ASP.net_learn/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/MvcMovie.csproj.AssemblyReference.cache
+/Users/tanakakizuki/Desktop/ASP.net_learn/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/Razor/Views/Movies/Find.cshtml.g.cs
