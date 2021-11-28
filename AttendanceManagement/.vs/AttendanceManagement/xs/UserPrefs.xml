@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{19CD795D-983E-4946-A15B-10387BC0B6EC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AttendanceManagement/Controllers/AttendanceController.cs">
+    <Files>
+      <File FileName="AttendanceManagement/Controllers/AttendanceController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AttendanceManagement" expanded="True">
+            <Node name="AttendanceManagement" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="AttendanceController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AttendanceManagement PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
